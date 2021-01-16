@@ -1,0 +1,134 @@
+<?xml version = "1.0"?>
+<!DOCTYPE html PUBLIC = "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+	<title>JavaScript Quiz</title>
+	<link href = "HW2_style.css" rel = "stylesheet">
+	
+	<script src = "HW2_js.js"></script>
+</head>
+
+<body>
+	<h1>This is a short JavaScript Quiz</h1>
+	
+	<form id = "quiz" name = "quiz">
+	
+	<h3>Exercise 1</h3><!-- d -->
+	<p>var x = 5;</p>
+	<p>var y = 10;</p>
+	<p>___ _ = x + y;</p>
+	<p>_____(z);</p>
+	<br>
+	<input type = "radio" id="mc" name = "exercise1" value="a"><label>int x; alert</label><br>
+	<input type = "radio" id="mc" name = "exercise1" value="b"><label>var z; print</label><br>
+	<input type = "radio" id="mc" name = "exercise1" value="c"><label>int z; print</label><br>
+	<input type = "radio" id="mc" name = "exercise1" value="d"><label>var z; alert</label><br>
+	
+	<h3>Exercise 2</h3><!-- b -->
+	<p>x = 10;</p>
+	<p>y = 5;</p>
+	<p>x __ y;</p>
+	<h4>//x = x * y;</h4>
+	<br>
+	<input type = "radio" id="mc" name = "exercise2" value="a"><label>x=</label><br>
+	<input type = "radio" id="mc" name = "exercise2" value="b"><label>*=</label><br>
+	<input type = "radio" id="mc" name = "exercise2" value="c"><label>x==</label><br>
+	<input type = "radio" id="mc" name = "exercise2" value="d"><label>*==</label><br>
+	
+	<h3>Exercise 3</h3><!-- c -->
+	<p>function myFunction() {</p>
+	<p>    document.______________("demo")._________= "Hello";</p>
+	<p>}</p>
+	<br>
+	<input type = "radio" id="mc" name = "exercise3" value="a"><label>getElementbyId; InnerHTML</label><br>
+	<input type = "radio" id="mc" name = "exercise3" value="b"><label>getElementById; inner_html</label><br>
+	<input type = "radio" id="mc" name = "exercise3" value="c"><label>getElementById; innerHTML</label><br>
+	<input type = "radio" id="mc" name = "exercise3" value="d"><label>getElementByID; inner_HTML</label><br>
+
+	<h3>Exercise 4</h3><!-- d -->
+	<p>var person = {</p>
+	<p>    name: "John", age: 50</p>
+	<p>};</p>
+	<p>alert(___________ + " is " + __________);</p>
+	<br>
+	<input type = "radio" id="mc" name = "exercise4" value="a"><label>person(name); person(age)</label><br>
+	<input type = "radio" id="mc" name = "exercise4" value="b"><label>person->name; person->age</label><br>
+	<input type = "radio" id="mc" name = "exercise4" value="c"><label>person[name]; person[age]</label><br>
+	<input type = "radio" id="mc" name = "exercise4" value="d"><label>person.name; person.age</label><br>
+
+	<h3>Exercise 5</h3><!-- a -->
+	<p>^button _______="alert('Hello')">Click me.^/button></p>
+	<br>
+	<input type = "radio" id="mc" name = "exercise5" value="a"><label>onclick</label><br>
+	<input type = "radio" id="mc" name = "exercise5" value="b"><label>whenclicked</label><br>
+	<input type = "radio" id="mc" name = "exercise5" value="c"><label>click</label><br>
+	<input type = "radio" id="mc" name = "exercise5" value="d"><label>clicked</label><br>
+
+	<h3>Exercise 6</h3><!-- c -->
+	<p>var txt = "__________";</p>
+	<p>alert(txt);</p>
+	<br>
+	<input type = "radio" id="mc" name = "exercise6" value="a"><label>That was /"accidentally/"</label><br>
+	<input type = "radio" id="mc" name = "exercise6" value="b"><label>That was |"accidentally|"</label><br>
+	<input type = "radio" id="mc" name = "exercise6" value="c"><label>That was \"accidentally\"</label><br>
+	<input type = "radio" id="mc" name = "exercise6" value="d"><label>That was $"accidentally$"</label><br>
+	
+	<h3>Exercise 7</h3><!-- b -->
+	<p>var txt = "Hello World";</p>
+	<p>txt = txt._____________;</p>
+	<h4>//convert value to lower case</h4>
+	<br>
+	<input type = "radio" id="mc" name = "exercise7" value="a"><label>toLowerCase</label><br>
+	<input type = "radio" id="mc" name = "exercise7" value="b"><label>toLowerCase()</label><br>
+	<input type = "radio" id="mc" name = "exercise7" value="c"><label>lower()</label><br>
+	<input type = "radio" id="mc" name = "exercise7" value="d"><label>toLower</label><br>
+
+	<h3>Exercise 8</h3><!-- c -->
+	<p>var cars = ["Saab", "Volvo", "BMW"];</p>
+	<p>var x = ______;</p>
+	<h4>//get the value "Volvo" from the array</h4>
+	<br>
+	<input type = "radio" id="mc" name = "exercise8" value="a"><label>cars[0]</label><br>
+	<input type = "radio" id="mc" name = "exercise8" value="b"><label>cars["Volvo"]</label><br>
+	<input type = "radio" id="mc" name = "exercise8" value="c"><label>cars[1]</label><br>
+	<input type = "radio" id="mc" name = "exercise8" value="d"><label>cars[2]</label><br>
+
+	<h3>Exercise 9</h3><!-- a -->
+	<p>var fruits = ["Banana", "Orange", "Apple"];</p>
+	<p>fruits.________;</p>
+	<h4>//add "Kiwi" to array</h4>
+	<br>
+	<input type = "radio" id="mc" name = "exercise9" value="a"><label>push("Kiwi")</label><br>
+	<input type = "radio" id="mc" name = "exercise9" value="b"><label>plus("Kiwi")</label><br>
+	<input type = "radio" id="mc" name = "exercise9" value="c"><label>add("Kiwi")</label><br>
+	<input type = "radio" id="mc" name = "exercise9" value="d"><label>move("Kiwi")</label><br>
+	
+	<h3>Exercise 10</h3><!-- b -->
+	<p>^img id="image" src="smiley.gif"></p>
+	<p>^script></p>
+	<p>document.getElementById("image")____ = "pic_mountain.jpg"; </p>
+	<p>^/script></p>
+	<br>
+	<input type = "radio" id="mc" name = "exercise10" value="a"><label>.gif</label><br>
+	<input type = "radio" id="mc" name = "exercise10" value="b"><label>.src</label><br>
+	<input type = "radio" id="mc" name = "exercise10" value="c"><label>.id</label><br>
+	<input type = "radio" id="mc" name = "exercise10" value="d"><label>.jpq</label><br>
+	
+	<input type = "button" id = "button" value = "Done!" onclick = "check();" href="#after_submit">
+	
+	</form>
+	
+	<div>
+	<img id = "logo" src = "img/js.gif">
+	</div>
+	
+	<div id = "after_submit">
+	<p id = "message"></p>
+	<p id = "number_correct"></p>
+	<img id = "picture">
+	</div>
+	</html>
+</body>
+</html>
